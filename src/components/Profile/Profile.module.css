@@ -1,0 +1,96 @@
+body {
+  padding: 15px;
+  background-color: #e7ecf2;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+  height: auto;
+}
+
+.profile {
+  width: 300px;
+  margin: 0 auto 40px auto;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #aaaaaa;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.description {
+  padding: 40px;
+  text-align: center;
+}
+
+.avatar {
+  max-width: 60%;
+  margin: 0 auto 20px auto;
+  border-radius: 50%;
+}
+
+.name {
+  margin-bottom: 8px;
+  color: #212121;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.tag {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.location {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+/* Stats */
+
+.stats {
+  display: flex;
+  align-items: center;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #f3f6f9;
+  overflow: hidden;
+}
+
+.statsItem {
+  flex-basis: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 10px;
+  border-top: 2px solid #e0e6ed;
+}
+
+.statsItem:not(:last-child) {
+  border-right: 1px solid #e0e6ed;
+}
+
+.statsItem:not(:first-child) {
+  border-left: 1px solid #e0e6ed;
+}
+
+.label {
+  margin-bottom: 5px;
+}
+
+.quantity {
+  color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+}
